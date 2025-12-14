@@ -13,10 +13,25 @@
     "break",
     "break",
     "title",
-    "os",
-    "host",
-    "kernel",
-    "uptime",
-    "packages",
+    {
+            "type": "os",
+            "key": " OS",
+    },
+    {
+            "type": "host",
+            "key": " PC",
+    },
+    {
+            "type": "kernel",
+            "key": " KERNEL",
+    },
+    {
+            "type": "uptime",
+            "key": " UPTIME",
+    },
+    {
+            "type": "packages",
+            "key": "󰏖 PACKAGES",
+    },
   ]
 }
