@@ -15,7 +15,6 @@
     "calt": false // ligatures
   },
   "lsp_document_colors": "border",
-  "wrap_guides": [79],
   "show_edit_predictions": false,
   "terminal": {
     "font_family": "Agave Nerd Font Mono"
