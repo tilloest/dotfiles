@@ -2,7 +2,7 @@
   {
     "context": "Workspace",
     "bindings": {
-      "cmd-r": ["task::Spawn", { "task_name": "r/python" }]
+      "shift-r": ["task::Spawn", { "task_name": "r/python" }]
     }
   }
 ]
