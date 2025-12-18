@@ -1,25 +1,48 @@
-// Zed settings
-//
-// For information on how to configure Zed, see the Zed
-// documentation: https://zed.dev/docs/configuring-zed
-//
-// To see all of Zed's default settings without changing your
-// custom settings, run `zed: open default settings` from the
-// command palette (cmd-shift-p / ctrl-shift-p)
+
 {
-  "telemetry": {
-    "diagnostics": false,
-    "metrics": false
+  // =========================
+  // Editor Appearance
+  // =========================
+  "inlay_hints": {
+    "show_other_hints": false,
+    "show_parameter_hints": false,
+    "show_type_hints": false,
+    "show_value_hints": true
   },
   "ui_font_size": 16,
-  "buffer_font_size": 15,
-  "buffer_font_family": "Agave Nerd Font Mono",
+  "buffer_font_size": null,
+  "buffer_font_features": {
+    "calt": false // ligatures
+  },
+  "lsp_document_colors": "border",
+  "wrap_guides": [79],
+  "show_edit_predictions": false,
   "terminal": {
     "font_family": "Agave Nerd Font Mono"
   },
+
+  // Theme & Colors
   "theme": {
     "mode": "system",
     "light": "Catppuccin Latte - No Italics",
     "dark": "Catppuccin Mocha - No Italics"
+  },
+
+  // =========================
+  // Editor Behavior
+  // =========================
+  "autosave": {
+    "after_delay": { "milliseconds": 500 }
+  },
+  "format_on_save": "on",
+  "restore_on_startup": "last_session",
+  "show_completions_on_input": true,
+
+  // =========================
+  // Privacy & Telemetry
+  // =========================
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false
   }
 }
